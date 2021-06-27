@@ -3,9 +3,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://121.4.80.204:3306/myblog?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
-    username: root
-    password: Zx991026.Zy
+    url: jdbc:mysql://*****************/myblog?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: *****************
+    password: *****************
 
     thymeleaf:
       prefix: classpath:/templates/
@@ -16,9 +16,9 @@ spring:
       cache: false
 
   mail:
-    username: 2860698744@qq.com
-    password: zurpegkojuykdhdj
-    host: smtp.qq.com
+    username: *****************
+    password: *****************
+    host: *****************
     properties:
       mail.smtl.ssl.enable: true
       mail.smtp.starttls.enable: true
