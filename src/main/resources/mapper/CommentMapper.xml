@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.star.mapper.CommentMapper">
+
+    <!--添加评论-->
+    <insert id="saveComment" parameterType="com.star.domain.Comment">
+        insert into myblog.t_comment (nickname,email,content,avatar,create_time,blog_id,parent_comment_id,admin_comment)
+        values (#{nickname},#{email},#{content},#{avatar},#{createTime},#{blogId},#{parentCommentId},#{adminComment});
+    </insert>
+
+    <!--查询父级评论-->
+    <select id="findByBlogIdParentIdNull" resultType="com.star.domain.Comment">
+        select *
+        from myblog.t_comment c
+        where c.blog_id = #{blogId} and c.parent_comment_id = #{blogParentId}
+        order by c.create_time desc
+    </select>
+
+    <!--查询一级子评论-->
+    <select id="findByBlogIdParentIdNotNull" resultType="com.star.domain.Comment">
+        select *
+        from myblog.t_comment c
+        where c.blog_id = #{blogId} and c.parent_comment_id = #{id}
+        order by c.create_time desc
+    </select>
+
+    <!--查询二级子评论-->
+    <select id="findByBlogIdAndReplayId" resultType="com.star.domain.Comment">
+        select *
+        from myblog.t_comment c
+        where c.blog_id = #{blogId} and c.parent_comment_id = #{childId}
+        order by c.create_time desc
+    </select>
+
+    <!--删除评论-->
+    <delete id="deleteComment" >
+        delete from myblog.t_comment where id = #{id}
+    </delete>
+
+    <delete id="deleteCommentByBlogId">
+        delete from myblog.t_comment where blog_id = #{blogId}
+    </delete>
+
+    <select id="findMailByBlogId" resultType="String">
+        select u.email
+        from myblog.t_user u,myblog.t_blog b
+        where u.id = b.user_id and b.id = #{id}
+    </select>
+
+    <select id="findMailByParentId" resultType="String">
+        select c.email
+        from myblog.t_comment c
+        where c.id = #{id}
+    </select>
+</mapper>

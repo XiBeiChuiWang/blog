@@ -1,0 +1,3 @@
+2021-05-31 22:37:52.009  INFO 3504 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 3504 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-05-31 22:37:52.014  INFO 3504 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-05-31 22:37:57.150  INFO 3504 --- [main] com.star.DemoApplication                 : Started DemoApplication in 5.871 seconds (JVM running for 7.13)

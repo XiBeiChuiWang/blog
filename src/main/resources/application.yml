@@ -1,0 +1,57 @@
+spring:
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.4.80.204:3306/myblog?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: Zx991026.Zy
+
+    thymeleaf:
+      prefix: classpath:/templates/
+      check-template-location: true
+      suffix: .html
+      mode: HTML
+      encoding: UTF-8
+      cache: false
+
+  mail:
+    username: 2860698744@qq.com
+    password: zurpegkojuykdhdj
+    host: smtp.qq.com
+    properties:
+      mail.smtl.ssl.enable: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      mail.smtp.socketFactory.port: 465
+      mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+    port: 465
+    protocol: smtp
+    default-encoding: UTF-8
+
+
+logging:
+  level:
+    root: warn
+    com.star: info
+  file:
+    path: log
+
+
+mybatis:
+  type-aliases-package: com.star.mapper
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+pagehelper:
+  helper-dialect: mysql
+  params: count=countSql
+  reasonable: true
+  support-methods-arguments: true
+
+comment.avatar: /images/avatar.png
+message.avatar: /images/avatar.png
+
+redis:
+  host: 127.0.0.1

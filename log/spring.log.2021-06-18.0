@@ -1,0 +1,43 @@
+2021-06-18 12:08:55.430  INFO 2808 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 2808 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-06-18 12:08:55.437  INFO 2808 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-06-18 12:09:00.121  INFO 2808 --- [main] com.star.DemoApplication                 : Started DemoApplication in 5.402 seconds (JVM running for 6.443)
+2021-06-18 12:09:39.669  INFO 13252 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 13252 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-06-18 12:09:39.675  INFO 13252 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-06-18 12:09:41.902  INFO 13252 --- [main] com.star.DemoApplication                 : Started DemoApplication in 2.741 seconds (JVM running for 3.447)
+2021-06-18 12:09:59.669  INFO 13252 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/a/a1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.A.a', args=[com.star.controller.AA@6fbc8854]}
+2021-06-18 12:09:59.685  INFO 13252 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : nullnull
+2021-06-18 12:10:09.360  INFO 13252 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/a/a1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.A.a', args=[com.star.controller.AA@2f92f7c7]}
+2021-06-18 12:10:09.360  INFO 13252 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : nullnull
+2021-06-18 12:10:46.480  INFO 7416 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 7416 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-06-18 12:10:46.482  INFO 7416 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-06-18 12:10:48.616  INFO 7416 --- [main] com.star.DemoApplication                 : Started DemoApplication in 2.504 seconds (JVM running for 3.173)
+2021-06-18 12:10:59.159  WARN 7416 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2021-06-18 12:11:13.552  WARN 7416 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2021-06-18 12:13:57.347  INFO 2028 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 2028 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-06-18 12:13:57.350  INFO 2028 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-06-18 12:13:59.707  INFO 2028 --- [main] com.star.DemoApplication                 : Started DemoApplication in 2.798 seconds (JVM running for 3.54)
+2021-06-18 12:14:04.389  INFO 2028 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/a/a1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.A.a', args=[com.star.controller.AA@cb8188]}
+2021-06-18 12:14:04.393  INFO 2028 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : nullnull
+2021-06-18 12:15:41.107  INFO 10868 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 10868 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-06-18 12:15:41.110  INFO 10868 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-06-18 12:15:43.423  INFO 10868 --- [main] com.star.DemoApplication                 : Started DemoApplication in 2.793 seconds (JVM running for 3.51)
+2021-06-18 12:15:49.713  INFO 10868 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/a/a1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.A.a', args=[com.star.controller.AA@6aeadaa7]}
+2021-06-18 12:15:49.717  INFO 10868 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : nullnull
+2021-06-18 12:16:58.928  INFO 5624 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 5624 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-06-18 12:16:58.933  INFO 5624 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-06-18 12:17:01.351  INFO 5624 --- [main] com.star.DemoApplication                 : Started DemoApplication in 2.983 seconds (JVM running for 3.806)
+2021-06-18 12:17:08.038  INFO 5624 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/a/a1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.A.a', args=[com.star.controller.AA@34954566]}
+2021-06-18 12:17:08.041  INFO 5624 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : nullnull
+2021-06-18 12:17:13.989  INFO 5624 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/a/a1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.A.a', args=[com.star.controller.AA@2790bad]}
+2021-06-18 12:17:13.989  INFO 5624 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : nullnull
+2021-06-18 12:20:00.101  INFO 7716 --- [main] com.star.DemoApplication                 : Starting DemoApplication using Java 1.8.0_251 on DESKTOP-3H10333 with PID 7716 (Z:\javawork\boke\target\classes started by wwwe in Z:\javawork\boke)
+2021-06-18 12:20:00.105  INFO 7716 --- [main] com.star.DemoApplication                 : No active profile set, falling back to default profiles: default
+2021-06-18 12:20:02.402  INFO 7716 --- [main] com.star.DemoApplication                 : Started DemoApplication in 2.743 seconds (JVM running for 3.434)
+2021-06-18 12:21:13.242  INFO 7716 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/a/a1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.A.a', args=[com.star.controller.AA@26d9b241]}
+2021-06-18 12:21:13.247  INFO 7716 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : 翔1111
+2021-06-18 12:51:54.881  INFO 14916 --- [main] com.star.DemoApplicationTests            : Starting DemoApplicationTests using Java 1.8.0_251 on DESKTOP-3H10333 with PID 14916 (started by wwwe in Z:\javawork\boke)
+2021-06-18 12:51:54.883  INFO 14916 --- [main] com.star.DemoApplicationTests            : No active profile set, falling back to default profiles: default
+2021-06-18 12:51:58.924  INFO 14916 --- [main] com.star.DemoApplicationTests            : Started DemoApplicationTests in 4.498 seconds (JVM running for 5.891)
+2021-06-18 12:52:51.869  INFO 3100 --- [main] com.star.DemoApplicationTests            : Starting DemoApplicationTests using Java 1.8.0_251 on DESKTOP-3H10333 with PID 3100 (started by wwwe in Z:\javawork\boke)
+2021-06-18 12:52:51.870  INFO 3100 --- [main] com.star.DemoApplicationTests            : No active profile set, falling back to default profiles: default
+2021-06-18 12:52:55.677  INFO 3100 --- [main] com.star.DemoApplicationTests            : Started DemoApplicationTests in 4.344 seconds (JVM running for 5.383)
